@@ -1,0 +1,33 @@
+{
+  "name": "horloge",
+  "version": "0.1.0",
+  "description": "A simple timer utility.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava && xo"
+  },
+  "keywords": [
+    "timer",
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/horloge.git"
+  },
+  "author": {
+    "name": "Hugo Muller-Downing",
+    "email": "npmjs@hugo.sx",
+    "url": "hu.md"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "ms": "^2.0.0"
+  }
+}
