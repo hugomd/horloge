@@ -7,7 +7,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "ava && xo"
+    "test": "ava && xo",
+    "doc": "jsdoc index.js -d docs/ --template ./node_modules/docdash"
   },
   "keywords": [
     "timer",
@@ -25,6 +26,8 @@
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.22.0",
+    "docdash": "^0.4.0",
+    "jsdoc": "^3.5.5",
     "xo": "^0.18.2"
   },
   "dependencies": {
